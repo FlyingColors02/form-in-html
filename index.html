@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form validation task</title>
+        <style>
+        body{
+        margin-left: 30px;
+        margin-right: 30px;
+        }</style>
+    </head>
+
+    <body>
+        <!--Creating a form-->
+        <form>
+        <fieldset>
+        <legend>Form Validation</legend>
+        
+            <fieldset name="form validation">
+                <legend>Initial Details</legend>
+                <label for="first name">First Name:</label>
+                <input type="text" placeholder="enter first name">
+                <br>
+                <br>
+                <label for="last name">Last Name:</label>
+                <input type="text" placeholder="enter last name">
+            </fieldset>
+            <br>
+            <fieldset name="Address">
+                <legend>Address</legend>
+                <label for="email id">Email ID:</label>
+                <input type="text" placeholder="enter email id">
+                <br>
+                <br>
+                <label for="address">Address :</label>
+                <input type="text" placeholder="enter your address">
+                <br>
+                <br>
+                <label for="country">Country :</label>
+                <select>
+                    <option selected="selected">==select your country==</option>
+                    <option>India</option>
+                    <option>Australia</option>
+                    <option>USA</option>
+                </select>
+                <br>
+                <br>
+                <label for="state">State :</label>
+                <select>
+                    <option value="maharashtra" selected="selected">Maharashtra</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="punjab">Punjab</option>
+                </select>
+                <br>
+                <br>
+                <label for="city">City : </label>
+                <select>
+                    <option value="mumbai" selected="selected">Mumbai</option>
+                    <option value="panvel">Panvel</option>
+                    <option value="kolhapur">kolhapur</option>
+                    <option value="solapur">Solapur</option>
+                </select>
+                <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Password & Gender</legend>
+                <label for="Password">Password</label>
+                <input type="password">
+                <br>
+                <br>
+                <label for="gender">Gender</label>
+                <input type="radio" id="gender">Male
+                <input type="radio"id="gender">Female
+                <br>
+            </fieldset><br>
+            <button onclick="submit" style="margin-left: 200px; color: blue;">Submit</button>
+        </fieldset>
+        </form>
+        <!--End of Form-->
+    </body>
+</html>
